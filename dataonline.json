@@ -1,0 +1,40 @@
+[
+    {
+        "category": "Imagenes",
+        "content":[
+            {
+                "name":"Primera Imagen",
+                "url":"https://goner99.github.io/assets/img1.jpg"
+            },
+            {
+                "name":"Segunda Imagen",
+                "url":"https://goner99.github.io/assets/img1.jpg"
+            }
+        ]
+    },
+    {
+        "category": "Videos",
+        "content":[
+            {
+                "name":"Primer Video",
+                "url":"https://goner99.github.io/assets/122208302_1259245471206939_3371288082627565107_n.mp4"
+            },
+            {
+                "name":"Segundo Video",
+                "url":"https://goner99.github.io/assets/122208302_1259245471206939_3371288082627565107_n.mp4"
+            }
+        ]
+    },
+    {
+        "category":"Ultimas Noticias",
+        "content":[
+            {
+                "name":"Esto es una Noticia",
+                "url":"https://goner99.github.io/assets/img1.jpg",
+                "url1":"https://goner99.github.io/assets/img1.jpg",
+                "desc":"Descrippcion de las noticias "
+            }
+        ]
+    }
+
+]
