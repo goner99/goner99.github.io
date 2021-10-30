@@ -1,40 +1,38 @@
-[
-    {
-        "category": "Imagenes",
-        "content":[
-            {
-                "name":"Primera Imagen",
-                "url":"https://goner99.github.io/assets/img1.jpg"
-            },
-            {
-                "name":"Segunda Imagen",
-                "url":"https://goner99.github.io/assets/img1.jpg"
-            }
-        ]
-    },
-    {
-        "category": "Videos",
-        "content":[
-            {
-                "name":"Primer Video",
-                "url":"https://goner99.github.io/assets/122208302_1259245471206939_3371288082627565107_n.mp4"
-            },
-            {
-                "name":"Segundo Video",
-                "url":"https://goner99.github.io/assets/122208302_1259245471206939_3371288082627565107_n.mp4"
-            }
-        ]
-    },
-    {
-        "category":"Ultimas Noticias",
-        "content":[
-            {
-                "name":"Esto es una Noticia",
-                "url":"https://goner99.github.io/assets/img1.jpg",
-                "url1":"https://goner99.github.io/assets/img1.jpg",
-                "desc":"Descrippcion de las noticias "
-            }
-        ]
-    }
-
-]
+{
+    "news":[
+        {
+            "name":"Primera Noticia",
+            "img":"https://goner99.github.io/assets/img1.jpg",
+            "des":"DESC-GENERAL",
+            "cont":[
+                {
+                    "type":"im",
+                    "img":"https://goner99.github.io/assets/nice.mp4",
+                    "des":"Embark on a journey of adventure and creativity! Hytale combines the scope of a sandbox with the depth of a roleplaying game, immersing players in a procedurally generated world where teetering towers and deep dungeons promise rich rewards."
+                },
+                {
+                    "type":"vd",
+                    "img":"https://goner99.github.io/assets/img1.jpg",
+                    "des":"Embark on a journey of adventure and creativity! Hytale combines the scope of a sandbox with the depth of a roleplaying game, immersing players in a procedurally generated world where teetering towers and deep dungeons promise rich rewards. Designed with creative players in mind"
+                }
+            ]
+        },
+        {
+            "name":"Segunda Noticia",
+            "img":"img-presentacion",
+            "des":"DESC-GENERAL",
+            "cont":[
+                {
+                    "type":"im",
+                    "img":"https://goner99.github.io/assets/nice.mp4",
+                    "des":"Embark on a journey of adventure and creativity! Hytale combines the scope of a sandbox"
+                },
+                {
+                    "type":"vd",
+                    "img":"https://goner99.github.io/assets/img1.jpg",
+                    "des":"Embark on a journey of adventure and creativity! Hytale combines the scope of a sandbox"
+                }
+            ]
+        }
+    ]   
+}
