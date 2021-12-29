@@ -9,6 +9,10 @@
             "rgb(0, 0, 255)",
             "rgb(255, 0, 255)"
         ]
+        
+        this.ctx.shadowColor = this.color;
+        this.ctx.shadowBlur = 50
+        
 this.color = this.colors[Math.floor(Math.random() * 6)];
     
 
