@@ -43,3 +43,26 @@ ctx.lineTo(fx,fy)
 ctx.lineTo(bx,fy)
 ctx.closePath();
 ctx.stroke();
+
+
+
+ colision(){
+        var dx
+        var dy
+        var distance;
+        balls.forEach(element => {
+            dx = element.x - this.x
+            dy = element.y - this.y
+            distance = Math.sqrt(dx*dx + dy*dy)
+            if (distance < element.radio + this.radio) {
+                this.vx = -this.vx
+                this.vy = -this.vy
+                element.vx = -element.vx
+                element.vy = -element.vy
+                
+            }
+        });
+        console.log(dx)
+      
+        
+    }
